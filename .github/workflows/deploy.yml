@@ -33,7 +33,7 @@ jobs:
             --token=$VERCEL_TOKEN \
             --confirm \
             --org-id=$VERCEL_ORG_ID \
-            --project-id=$
+            --project-id=$VERCEL_PROJECT_ID
         env:
           VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
           VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
