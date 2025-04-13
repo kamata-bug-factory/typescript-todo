@@ -18,6 +18,9 @@ jobs:
         with:
           node-version: 22
 
+      - name: Change directory to todo-app
+        run: cd todo-app
+
       - name: Install dependencies
         run: npm ci
 
