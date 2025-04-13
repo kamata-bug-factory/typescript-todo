@@ -32,8 +32,6 @@ jobs:
           npx vercel \
             --prod \
             --token $VERCEL_TOKEN \
-            --org kamata-bug-factorys-projects \
-            --project typescript-todo \
             --confirm
         env:
           VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
