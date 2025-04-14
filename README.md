@@ -2,7 +2,7 @@
 
 ## 概要
 
-React × Supabase × Vercel の TODO アプリ。GitHub Actions で CI/CD パイプラインを組み込む。
+React × Supabase × Vercel で作った TODO アプリ。GitHub Actions で CI/CD パイプラインを構築した。
 
 ## 参考
 
