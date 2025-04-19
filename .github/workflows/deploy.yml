@@ -1,9 +1,10 @@
 name: Vitest and Deploy to Vercel
 
+# デプロイ環境を破棄したのでコメントアウト
 on:
-  push:
-    branches:
-      - main
+  # push:
+  #   branches:
+  #     - main
 
 jobs:
   test-and-deploy:
